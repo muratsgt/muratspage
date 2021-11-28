@@ -1,0 +1,32 @@
+:root,
+.day:root {
+    --c-background: #fff;
+    --c-text: #000;
+    --c-detail: #666;
+    --c-border: #333;
+    --c-theme: #004c8c;
+    --c-theme-text: #fff;
+    --c-theme-light: #63a4ff;
+    --c-theme-dark: #002f6c;
+}
+
+.night:root {
+    --c-background: #111;
+    --c-text: #eee;
+    --c-detail: #888;
+    --c-border: #222;
+    --c-theme: #004ba0;
+    --c-theme-text: #fff;
+    --c-theme-light: #63a4ff;
+    --c-theme-dark: #4f83cc;
+}
+
+.blue:root {
+    --c-theme: #004c8c;
+}
+.green:root {
+    --c-theme: #2e7d32;
+}
+.red:root {
+    --c-theme: #c62828;
+}

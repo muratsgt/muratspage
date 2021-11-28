@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skill {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #000;
+}
+
+.container [tabcolor="red"] {
+  background-color: #ff867f;
+}
+
+.container [tabcolor="yellow"] {
+  background-color: #ffffcf;
+}
+
+.container [tabcolor="fume"] {
+  background-color: #212121;
+  color: white;
+}
+
+.container [tabcolor="blue"] {
+  background-color: #bbdefb;
+}
+.container [tabcolor="silver"] {
+  background-color: #eee;
+}

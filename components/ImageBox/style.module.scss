@@ -1,0 +1,7 @@
+.imgBox {
+  box-shadow: var(--c-theme) 0px 0px 25px 0px;
+  border-radius: 400px;
+  overflow: hidden;
+  width: calc(150px + 15vmin);
+  height: calc(150px + 15vmin);
+}

@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 8px;
+
+}
+
+.project {
+  background-color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  box-shadow: var(--c-border) 0px 5px 15px -5px;
+  cursor: pointer;
+  border-radius: 10px;
+
+  h3 {
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  h4 {
+    color: var(--c-detail);
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+.container {
+  div[coloreffect="red"] {
+    box-shadow: #d62828 0px 5px 15px -5px;
+  }
+
+  div[coloreffect="blue"] {
+    box-shadow: #003049 0px 5px 15px -5px;
+  }
+
+  div[coloreffect="orange"] {
+    box-shadow: #f77f00 0px 5px 15px -5px;
+  }
+
+  div[coloreffect="yellow"] {
+    box-shadow: #fcbf49 0px 5px 15px -5px;
+  }
+}
