@@ -16,8 +16,9 @@ function About() {
       </h1>
       <h2>
         Developer, engineer, and technology enthusiast.
-        Currently in Germany, working on Frontend projects.
-        Also researcher, fast learner, and on his way to be a Full Stack Developer.
+        Currently in Germany, working on Frontend projects;
+        React, Next.js, R.Native.
+        Also researcher, fast learner, on his way to be a Full Stack Developer.
       </h2>
       <Welcome />
     </div>
@@ -27,7 +28,7 @@ function About() {
 function Welcome() {
   return (
     <div className={styles.welcome}>
-      <Typical steps={["Ask me anything 🙂", 3000, 'Feel free to contact 💌', 3000]} loop={3} wrapper="h2" />
+      <Typical steps={["Check out my work ✔", 3000, 'Feel free to contact ✉', 3000]} loop={3} wrapper="h3" />
     </div>);
 }
 

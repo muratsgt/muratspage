@@ -21,7 +21,7 @@
   flex-direction: row;
   align-items: flex-start;
   gap: 5vw;
-  padding-bottom: 60px;
+  padding-bottom: 65px;
 }
 
 .box1,
@@ -86,9 +86,13 @@
   }
 
   h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: var(--c-text);
-    letter-spacing: 2px;
+    // letter-spacing: 2px;
     margin-top: 10px;
+  }
+
+  h3{
+    font-size: 1.5rem;
   }
 }

@@ -7,8 +7,8 @@ export default function ProjectSet({ children }) {
     <div className={styles.container}>
       <Link href="https://twitter-proj.vercel.app/"><a>
         <Project title="Twitter Clone" coloreffect="blue">
-          a twitter website clone, react project with the storybook tool
-          (to see storybook add /ui/index.html).
+          twitter website clone; a react project with
+          the storybook tool for component development
         </Project>
       </a></Link>
       <Link href="https://node-mongo-booktest.herokuapp.com/"><a>
@@ -18,7 +18,7 @@ export default function ProjectSet({ children }) {
         </Project>
       </a></Link>
       <Project title="Personal Website"  coloreffect="red">my personal website,
-        created using nextjs framework</Project>
+        created using Nextjs framework</Project>
       {children}
     </div>);
 }
