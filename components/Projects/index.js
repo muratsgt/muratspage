@@ -11,13 +11,19 @@ export default function ProjectSet({ children }) {
           the storybook tool for component development
         </Project>
       </a></Link>
+      <Link href="https://bodymassindex-xi.vercel.app/"><a>
+        <Project title="BMI Calculator"  coloreffect="orange">
+          a simple, good looking, Body Mass Index calculator,
+          you can see your latest 7 scores
+        </Project>
+      </a></Link>
       <Link href="https://node-mongo-booktest.herokuapp.com/"><a>
-        <Project title="Online BookStore"  coloreffect="orange">
+        <Project title="Online BookStore"  coloreffect="red">
           an online book store, created with MERN
           (MongoDB Express React Node) structure.
         </Project>
       </a></Link>
-      <Project title="Personal Website"  coloreffect="red">my personal website,
+      <Project title="Personal Website"  coloreffect="blue">my personal website,
         created using Nextjs framework</Project>
       {children}
     </div>);
