@@ -14,6 +14,8 @@
   background-color: var(--c-background);
   flex-direction: column;
   transition: 400ms;
+  justify-content: flex-start;
+  padding-top: calc(10vw - 15px);
 }
 
 .main {
