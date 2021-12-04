@@ -12,7 +12,7 @@ export default function Navbar({ onClick, children }) {
       case "About":
         onClick(1);
         break;
-      case "Projects":
+      case "My Work":
         onClick(2);
         break;
       case "Skills":
@@ -34,9 +34,9 @@ export default function Navbar({ onClick, children }) {
         whileTap={{ scale: 1 }}>About</motion.button>
       <motion.button
         onClick={handleClick}
-        className={cn(styles.butto, (selected === "Projects") && styles.selected)}
+        className={cn(styles.butto, (selected === "My Work") && styles.selected)}
         whileHover={{ scale: 1.2 }}
-        whileTap={{ scale: 1 }}>Projects</motion.button>
+        whileTap={{ scale: 1 }}>My Work</motion.button>
       <motion.button
         onClick={handleClick}
         className={cn(styles.butto, (selected === "Skills") && styles.selected)}

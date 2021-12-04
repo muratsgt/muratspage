@@ -4,19 +4,22 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
 }
 
 .skill {
   background-color: white;
   display: flex;
   flex-direction: row;
-  gap: 10px;
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
   border-radius: 5px;
   color: #000;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  p{
+    margin-right: 10px;
+  }
 }
 
 .container [tabcolor="red"] {
