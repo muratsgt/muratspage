@@ -11,6 +11,12 @@ export default function ProjectSet({ children }) {
           backend API from NextJs and database MongoDB
         </Project>
       </a></Link>
+      <Link href="https://murats-blog.vercel.app/"><a>
+        <Project title="Blog Web Application" coloreffect="default">
+          a captivating, responsive blog, share your post,
+          login with github, used NextJs, Prisma, PostgreSQL.
+        </Project>
+      </a></Link>
       <Link href="https://bodymassindex-xi.vercel.app/"><a>
         <Project title="BMI Calculator" coloreffect="default">
           a simple, good looking, Body Mass Index calculator,
