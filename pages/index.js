@@ -16,9 +16,9 @@ function About() {
       </h1>
       <h2>
         Developer, engineer, and technology enthusiast.
-        Currently in Germany, working on Frontend projects;
-        React, Next.js, R.Native.
-        Also researcher, fast learner, on his way to be a Full Stack Developer.
+        Currently in Germany, working as a Full Stack Developer.
+        My main tech stack; JavaScript, React, Vue.Js, Laravel, PHP, Next.Js.
+        Also researcher, life long learner and likes to travel.
       </h2>
       <Welcome />
     </div>
