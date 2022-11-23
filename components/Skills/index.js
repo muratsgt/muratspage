@@ -13,6 +13,9 @@ export default function SkillSet({ children }) {
       <Skill move tabcolor="silver" imgsrc="/mongodb.png">MongoDB</Skill>
       <Skill spin tabcolor="yellow" imgsrc="/jira.png">Jira</Skill>
       <Skill spin tabcolor="silver" imgsrc="/next.png">Next.js</Skill>
+      <Skill spin tabcolor="red" imgsrc="/laravel.png">Laravel</Skill>
+      <Skill scale tabcolor="blue" imgsrc="/php.png">PHP</Skill>
+      <Skill move tabcolor="fume" imgsrc="/vue.png">Vue.js</Skill>
       {children}
     </div>);
 }
